@@ -1,0 +1,49 @@
+/* Login.css */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .container {
+    text-align: center;
+  margin-top: 0px;
+  height: 100vh; 
+  background-image: url('../images/laptop-shopping-bags-online-shopping-concept.jpg');
+  background-size: cover; 
+  background-position: center; 
+  color: white; 
+  padding: 20px; 
+  }
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .login-container input {
+    width: 90%;
+    padding: 9px;
+    margin: 11px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .login-container label {
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #798b50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

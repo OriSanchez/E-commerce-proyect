@@ -1,0 +1,87 @@
+/* Estilos generales */
+.profile-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Título */
+  .profile-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Vista de solo lectura */
+  .profile-details p {
+    background: #fff;
+    color: #333;
+    width: 90%;
+    padding: 9px;
+    margin: 11px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .profile-details p strong {
+    color: #007bff;
+  }
+  
+  /* Botón de edición */
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Formulario de edición */
+  .profile-form input {
+    width: 90%;
+    padding: 11px;
+    margin: 9px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Botones del formulario */
+  .profile-form button {
+    width: 48%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .profile-form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .profile-form button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  .profile-form button[type="button"] {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .profile-form button[type="button"]:hover {
+    background-color: #c82333;
+  }
+  
