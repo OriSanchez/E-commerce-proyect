@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-=wz#x89c%!c95*0v6hhygkmlt(f*&g*cg)aoh(%#w_g@c#hn=j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['e-commerce-proyect.onrender.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
@@ -56,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = False  # Evita permitir cualquier origen
+CORS_ALLOW_ALL_ORIGINS = True  # Evita permitir cualquier origen
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Asegúrate de que el frontend está en la lista
     "http://127.0.0.1:3000"
