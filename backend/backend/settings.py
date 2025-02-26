@@ -59,7 +59,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  
     "http://127.0.0.1:3000",
-    "https://frontend-eight-opal-81.vercel.app/",
+    "https://frontend-eight-opal-81.vercel.app",
 ]
 
 CORS_ALLOW_CREDENTIALS = True  
