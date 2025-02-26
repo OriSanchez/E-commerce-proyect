@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f13f325.css",
+    "main.js": "/static/js/main.94dd8004.js",
+    "static/media/laptop-shopping-bags-online-shopping-concept.jpg": "/static/media/laptop-shopping-bags-online-shopping-concept.971baa55dc7040472ca6.jpg",
+    "static/media/zapatos.jpg": "/static/media/zapatos.cc241c0c30358bdbdf7e.jpg",
+    "static/media/pngtree-pink-background-isometric-online-shopping-concept-image_662223.jpg": "/static/media/pngtree-pink-background-isometric-online-shopping-concept-image_662223.916adb5ba52333b0e347.jpg",
+    "static/media/ropa.jpg": "/static/media/ropa.8d384039a38f3da7bec8.jpg",
+    "static/media/accesorios.jpg": "/static/media/accesorios.7b1ca81c88af16c9fe9f.jpg",
+    "index.html": "/index.html",
+    "main.6f13f325.css.map": "/static/css/main.6f13f325.css.map",
+    "main.94dd8004.js.map": "/static/js/main.94dd8004.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f13f325.css",
+    "static/js/main.94dd8004.js"
+  ]
+}

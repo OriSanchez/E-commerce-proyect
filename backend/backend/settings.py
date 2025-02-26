@@ -55,13 +55,14 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True  # Evita permitir cualquier origen
+CORS_ALLOW_ALL_ORIGINS = True 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Asegúrate de que el frontend está en la lista
-    "http://127.0.0.1:3000"
+    "http://localhost:3000",  
+    "http://127.0.0.1:3000",
+    "https://frontend-eight-opal-81.vercel.app/",
 ]
 
-CORS_ALLOW_CREDENTIALS = True  # Habilita envío de cookies en solicitudes cross-origin
+CORS_ALLOW_CREDENTIALS = True  
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000"
